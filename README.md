@@ -79,9 +79,7 @@ streamlit run app.py
 
 You can deploy this app easily on:
 
-* Streamlit Cloud (Recommended)
-* Render
-* Heroku
+
 
 ---
 
