@@ -11,9 +11,6 @@ venv/
 # Environment variables
 .env
 
-# Large files
-similarity.pkl
-
 # OS files
 .DS_Store
 Thumbs.db
