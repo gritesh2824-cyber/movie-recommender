@@ -3,6 +3,7 @@ import pickle
 import pandas as pd
 import requests
 import os
+import joblib
 
 # 🔑 PUT YOUR API KEY HERE
 API_KEY = os.getenv("API_KEY")
@@ -57,7 +58,7 @@ set_bg()
 movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+similarity = joblib.load(open('similarity.pkl', 'rb'))
 
 
 # 🎬 Fetch poster (SAFE VERSION)
